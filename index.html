@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G JUICE • all natural hydration</title>
+   <link rel="icon" href="gjuice.png" type="image/png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Impact:wght@400;700&family=Arial:wght@400;700&display=swap');
+        
+        body { 
+            margin: 0; 
+            font-family: 'Arial', sans-serif; 
+            background: linear-gradient(135deg, #0a2a0a, #1a4a1a); 
+            color: #fff; 
+            text-align: center; 
+            line-height: 1.6;
+        }
+        header { 
+            background: #00ff00; 
+            padding: 4rem 1rem; 
+            color: #000;
+        }
+        .logo { 
+            font-size: 5.5rem; 
+            font-weight: 900; 
+            letter-spacing: -4px; 
+            text-transform: uppercase;
+            margin: 0;
+        }
+        .logo span { 
+            color: #ffcc00; 
+        }
+        .tagline { 
+            font-size: 1.8rem; 
+            margin: 1rem 0 0; 
+            font-weight: bold;
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 3rem auto; 
+            padding: 0 1rem; 
+        }
+        .hero { 
+            font-size: 2.2rem; 
+            margin-bottom: 2rem;
+        }
+        button { 
+            background: #ffcc00; 
+            color: #000; 
+            padding: 1.4rem 4rem; 
+            font-size: 1.8rem; 
+            font-weight: bold; 
+            border: none; 
+            border-radius: 60px; 
+            cursor: pointer; 
+            margin: 2rem 0;
+            box-shadow: 0 10px 20px rgba(255, 204, 0, 0.4);
+        }
+        button:hover { transform: scale(1.05); }
+        iframe { 
+            width: 100%; 
+            height: 950px; 
+            border: 5px solid #ffcc00; 
+            border-radius: 20px; 
+            margin-top: 2rem;
+        }
+        .benefits { 
+            display: flex; 
+            justify-content: center; 
+            gap: 2rem; 
+            flex-wrap: wrap; 
+            margin: 3rem 0;
+        }
+        .benefit { 
+            background: rgba(255,255,255,0.1); 
+            padding: 1.5rem; 
+            border-radius: 15px; 
+            width: 280px;
+        }
+        footer { 
+            padding: 3rem 1rem; 
+            background: #0a1f0a; 
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">G <span>JUICE</span></div>
+        <p class="tagline">ALL NATURAL • WAY BETTER</p>
+    </header>
+
+    <div class="container">
+        <h2 class="hero">real hydration that actually slaps</h2>
+        <p>no artificial crap. just clean electrolytes, natural flavors & ingredients that hit different. prime who?</p>
+
+        <button onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">ORDER G JUICE NOW</button>
+
+        <div class="benefits">
+            <div class="benefit">
+                <h3>🌿 ALL NATURAL</h3>
+                <p>real ingredients only</p>
+            </div>
+            <div class="benefit">
+                <h3>⚡ ELECTROLYTES</h3>
+                <p>stay hydrated longer</p>
+            </div>
+            <div class="benefit">
+                <h3>💪 NO CRASH</h3>
+                <p>clean energy vibes</p>
+            </div>
+        </div>
+
+        <h2 id="order-form">drop your order below 👇</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenEaR4NDrqLE2WAWRP1WN1-SSdjXcht8umSJEUQ0XiA33g3A/viewform?usp=sf_link"></iframe>
+    </div>
+
+    <footer>
+        <p>g juice by gibby • coming soon to destroy the sports drink game 💀</p>
+    </footer>
+</body>
+</html>
